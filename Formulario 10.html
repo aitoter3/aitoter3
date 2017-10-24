@@ -2,11 +2,11 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>Formulario 10</title>
 	</head>
 	<body>
-	
-			<form method="get">
+	<!--23/10/2017 Aitor Valderrama-->
+			<form method="get" action=".">
 		<fieldset>
 			<h1>Formulario de solicitud de zapatos</h1>
 		<fieldset>
@@ -15,10 +15,10 @@
 		
 		
 		<ul>
-			<li>Nombre: <input type="text" name="Nombre" size="20"></li>
-			<li>Email: <input type="email" name="Email" size="20" /></li>
-			<li>Teléfono: <input type="tel" name="telefono" size="20" /></li>
-			<li>Cuéntanos tu historia... <br> <textarea name="texto" rows="4" cols="40" placeholder="No mas de 300 caracteres"></textarea></li>
+			<li><label>Nombre: <input type="text" name="Nombre" size="20"></label></li>
+			<li><label>Email: <input type="email" name="Email" size="20" /></label></li>
+			<li><label>Teléfono: <input type="tel" name="telefono" size="20" /></label></li>
+			<li><label>Cuéntanos tu historia... <br> <textarea name="texto" rows="4" cols="40" placeholder="No mas de 300 caracteres"></textarea></label></li>
 		</ul>
 		
 		</fieldset>
@@ -29,10 +29,10 @@
 		<fieldset>
 		<legend>Color (<i>elige uno</i>)</legend>
 			<ul>
-				<li><input type="radio" name="radio" value="Rojo" />Rojo<br/></li>
-				<li><input type="radio" name="radio" value="Azul" />Azul<br/></li>
-				<li><input type="radio" name="radio" value="Negro" />Negro<br/></li>
-				<li><input type="radio" name="radio" value="Plata" />Plata<br/></li>
+				<li><label><input type="radio" name="radio" value="Rojo" />Rojo<br/></label></li>
+				<li><label><input type="radio" name="radio" value="Azul" />Azul<br/></label></li>
+				<li><label><input type="radio" name="radio" value="Negro" />Negro<br/></label></li>
+				<li><label><input type="radio" name="radio" value="Plata" />Plata<br/></label></li>
 			</ul>
 		</fieldset>
 		
@@ -50,15 +50,15 @@
 		<fieldset>
 		<legend>Tamaño</legend>
 			Tamaño de los zapatos: <select name="menu">
-			  <option value="1">1</option>
-			  <option value="2">2</option>
-			  <option value="3">3</option>
-			  <option value="4">4</option>
-			  <option value="5" selected="selected">5</option>
-			  <option value="6">6</option>
-			  <option value="7">7</option>
-			  <option value="8">8</option>
-			  <option value="9">9</option>
+			  <label><option value="1">1</option></label>
+			  <label><option value="2">2</option></label>
+			  <label><option value="3">3</option></label>
+			  <label><option value="4">4</option></label>
+			  <label><option value="5" selected="selected">5</option></label>
+			  <label><option value="6">6</option></label>
+			  <label><option value="7">7</option></label>
+			  <label><option value="8">8</option></label>
+			  <label><option value="9">9</option></label>
 			</select>
 		</fieldset>
 		</fieldset>
